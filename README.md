@@ -1,1 +1,3 @@
 # gesture-recognition-api
+API Usage Overview
+This project uses the Face++ Gesture Recognition API (U.S. endpoint) to identify hand gestures from images captured by a webcam. The program uses OpenCV (cv2) to take pictures from the camera and the requests library to send those images to the Face++ API. Face++ returns the results in JSON format, which includes information about detected hands, the predicted gesture, and a confidence score for each prediction. To use the API, users must create a Face++ account to obtain an API key and API secret, which are stored locally in a private text file (facepp_keys.txt) and are not included in the GitHub repository.

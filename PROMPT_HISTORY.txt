@@ -1,0 +1,40 @@
+AI model(s)/tool(s) used: 
+ChatGPT Pro (Feb. 2026 version) - used to build foundation and start
+Claudi AI (Feb. 2026 version) - used to flesh out and debug
+Gemini Pro (Feb. 2026 version) - used to debug
+
+Key prompts that shaped the implementation:
+ChatGPT Pro:
+could you write me a simple python script so that that takes picture on my webcam, sends that to U.S. face++, and classify the gesture or give me some type of info on the gesture?
+
+instead of placing the api key and secret in the python file, could you change it so it reads from a text file
+
+could you also insert comments into the python script explain it so i understand what is going on?
+
+can you build upon this code so that when i do a thumbs up gesture and it is detected, it simulates the volume up key on my keyboard (increasing the volume)
+
+Claude AI:
+can you build upon this code so that when i do a thumbs up gesture and it is detected, it simulates the volume up key on my keyboard (increasing the volume)
+
+how do i fix: "API error: CONCURRENCY_LIMIT_EXCEEDED
+API error: FREE_CALL_COUNT_LIMIT
+API error: CONCURRENCY_LIMIT_EXCEEDED
+API error: FREE_CALL_COUNT_LIMIT
+API error: CONCURRENCY_LIMIT_EXCEEDED
+API error: FREE_CALL_COUNT_LIMIT
+API error: CONCURRENCY_LIMIT_EXCEEDED"?
+
+YES THANK GOD IT WORKS. now can you help me build a cute python app based off of this current project code with good ui and ux design
+
+so when i press start detection, i know the camera is on but the interface still says camera inactive what to do?
+
+it's still not working like i know that the camera is on but the app itself isn't making any changes
+
+i got zsh: illegal hardware instruction  python3 gesture_volume_app.py
+
+okay can you remake me a simple python app based on my code here
+
+Gemini Pro:
+my project for class is to use an api and then create a small app. right now the backend of gesturing thumbs up, increasing the volume works except when on the actual design of the app, the camera never shows on the app and the session stats never update. can you help me fix this?
+
+can you help me fix this so it spands the entire box that i want it to and also make sure thatthe stop detection actually stops?
